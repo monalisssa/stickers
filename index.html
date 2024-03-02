@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link type="text/css" rel="stylesheet" href="styles/style.css">
+    <link type="text/css" rel="stylesheet" href="styles/media.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <button onclick="openModal()" class="main-btn">Добавить стикер</button>
+
+<div class="modal">
+    <label>
+        <textarea placeholder="Введите текст" name="comment"></textarea>
+    </label>
+
+    <div class="design-container">
+        <label>Цвет:
+            <select></select>
+        </label>
+        <label>Узор:
+            <select></select>
+        </label>
+
+
+    </div>
+
+    <div class="modal-buttons">
+        <button onclick="addSticker()" class="addSticker">Добавить</button>
+        <button onclick="closeModal()" class="addSticker">Закрыть</button>
+    </div>
+
+</div>
+
+<main>
+
+</main>
+</body>
+</html>
