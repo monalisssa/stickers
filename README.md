@@ -1,3 +1,3 @@
 # Stickers
-Приложение для создания стикеров.
+Application for creating stickers.
 
