@@ -56,7 +56,7 @@ const createSticker = () =>
     sticker.style.transform = `translateY(${randomPosition()}px) rotate(${randomRotate()}deg)`
 
     deleteButton.className = 'delete-btn'
-    deleteButton.src = "../static/delete-icon.png"
+    deleteButton.src = "static/delete-icon.png"
     deleteButton.addEventListener('click', function() {
         deleteSticker(sticker);
     });
