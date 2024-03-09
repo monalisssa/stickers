@@ -9,10 +9,9 @@
     .sticker p{
         font-size: 50px;
     }
-
     .modal{
         width: 70%;
-        height: 35%;
+        height: 35rem;
     }
 
     textarea{
@@ -23,7 +22,7 @@
 
     button{
         width: 35rem;
-        font-size: 60px;
+        font-size: 40px;
     }
 
     .modal-buttons button {
@@ -39,10 +38,6 @@
         font-size: 20px;
     }
 
-    .modal-buttons {
-        padding: 10% 5%;
-
-    }
 }
 
 @media (orientation: landscape ) and (max-device-width: 1400px){
@@ -55,7 +50,7 @@
     }
     .modal{
         width: 70%;
-        height: 90%;
+        height: 25rem;
     }
 
     textarea{
@@ -68,15 +63,9 @@
         font-size: 20px;
     }
 
-
     .modal-buttons button {
         width: 10rem;
         font-size: 30px;
-    }
-
-    .modal-buttons {
-        padding: 5% 5%;
-
     }
 }
 
@@ -84,10 +73,9 @@
     body{
         font-size:30px;
     }
-
     .modal{
         width: 40%;
-        height: 70%;
+        height: 35rem;
     }
     textarea{
         width: 92%;
@@ -96,28 +84,18 @@
         grid-template-columns: repeat(4, minmax(0, 1fr));
         grid-auto-rows: 250px;
     }
-
-
-
     .design-container select{
         width: 50%;
         font-size: 30px;
     }
 }
 
-
 @media screen and (min-device-width: 700px) and (max-device-width: 1400px) and (orientation: portrait ){
     body{
         font-size: 40px;
     }
-
     .modal{
         width: 70%;
-        height: 70%;
-    }
-
-    .modal-buttons {
-        padding: 25% 5%;
-
+        height: 35rem;
     }
 }
